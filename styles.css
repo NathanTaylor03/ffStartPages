@@ -1,0 +1,148 @@
+:root {
+  --capsulebg: rgba(43, 42, 51, 1);
+  --capsuleaccent: rgb(28, 27, 34);
+  --txtcolour: aliceblue;
+  --searchtxtcolour: dimgray;
+}
+* {
+  color: var(--txtcolour);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body {
+  background-image: url("res/images/back4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100%;
+}
+#interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock {
+  display: flex;
+  font-size: 64px;
+}
+#date {
+  display: flex;
+  font-size: 36px;
+  text-indent: 10px;
+  height: 50px;
+}
+.url {
+  background-color: var(--capsulebg);
+  color: var(--searchtxtcolour);
+  font-size: 16px;
+  text-align: center;
+  border: 0px;
+  height: 48px;
+  width: 818px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 6px 20px black;
+}
+.url:focus,
+.url:hover {
+  outline: none;
+  border: darkgrey 1px solid;
+}
+#capsule-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.capsule {
+  background-color: var(--capsulebg);
+  height: 250px;
+  width: 175px;
+  border-radius: 15px;
+  box-shadow: 4px 6px 20px black;
+  margin: 20px;
+}
+.capsule-title {
+  margin: 0;
+  background-color: var(--capsuleaccent);
+  font-size: 20px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.capsule-ul {
+  padding: 0px;
+  margin-left: 5px;
+}
+.capsule-ul > li {
+  list-style: none;
+}
+.capsule-ul a {
+  text-decoration: none;
+}
+#li-reddit {
+  background: url("res/icons/reddit.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-4chan {
+  background: url("res/icons/4chanC.ico") left center no-repeat;
+  padding-left: 22px;
+  margin-left: 1px;
+}
+#li-github {
+  background: url("res/icons/github.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-w3s {
+  background: url("res/icons/w3schoolsC.ico") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-ars {
+  background: url("res/icons/arstechnicaC.ico") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-personal {
+  background: url("res/icons/account-box-outline.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-twitch {
+  background: url("res/icons/twitch.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-youtube {
+  background: url("res/icons/youtube.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-odysee {
+  background: url("res/icons/odyseeC.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-plex {
+  background: url("res/icons/plex.png") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
+#li-mytrent {
+  background: url("res/icons/trentuC.ico") left center no-repeat;
+  background-size: 18px 18px;
+  padding-left: 22px;
+}
